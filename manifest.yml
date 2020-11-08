@@ -1,0 +1,7 @@
+applications:
+  - name: hemchandnodeapp
+    random-route: true
+    path: app
+    buidpack: https://github.com/cloudfoundry/nodejs-buidpack
+    host: hemchandnodeapp
+    memory: 128M
